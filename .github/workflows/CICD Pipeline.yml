@@ -114,7 +114,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: asit/bankapp:latest
+          tags: adijaiswal/bankapp:latest
           context: .
 
   deploy-to-k8s:
